@@ -10,23 +10,29 @@
     font-family: Arial, sans-serif;
   }
   
-  .navbar ul{
+.navbar ul {
     list-style-type: none;
-    background-color: hsl(0, 0%, 25%);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+    background-color: transparent; /* Makes the background invisible */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Ensures the items stretch across the entire width */
+    justify-content: space-between; /* Spreads items evenly */
 }
-.navbar a{
-    color: white;
+
+.navbar a {
+    color: black; /* Adjusted for visibility, change as needed */
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 90%); /* Subtle hover effect */
 }
-.navbar li{
-    float: left;
+
+.navbar li {
+    flex: 1; /* Allows each list item to stretch evenly */
+    text-align: center;
 }
+

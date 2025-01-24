@@ -1,0 +1,32 @@
+#planet-info {
+    position: absolute;
+    right: 10px;
+    left:10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    display: none;
+    z-index: 1000; /* Ensure it's above other elements */
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
